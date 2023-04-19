@@ -1,7 +1,7 @@
 # Digits Recognition App
 The Digits Recognition App is a web-based tool that allows users to upload an image of a handwritten digit and get an accurate prediction of what digit it represents. The app is built using machine learning and Streamlit, a Python library for building interactive web applications.
 
-The machine learning model used in the app is trained on the digits recognition dataset, a popular dataset of 8x8 pixel images of handwritten digits. The model is a logistic regression classifier that is trained on a subset of the dataset and achieves high accuracy on the testing set.
+The machine learning model used in the app is trained on the digits recognition dataset, a popular dataset of 8x8 pixel images of handwritten digits. The model is a KNeighbors Classifier that is trained on a subset of the dataset and achieves high accuracy on the testing set.
 
 The app itself is simple and intuitive to use. Users can upload an image of a digit and the app will display the image and predict what digit it represents. The app also provides instructions for the user and examples of images that can be uploaded.
 
