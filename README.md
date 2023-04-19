@@ -14,10 +14,12 @@ The Digits Recognition App is a useful tool for anyone who needs to recognize ha
     https://github.com/actuaryhafeez/handwritten-digits-classification.git
 ### Create a new virtual environment in the project directory.
     python3 -m venv venv
-### Activate the virtual environment.
+### Activate the virtual environment. 
     source venv/bin/activate
-### Install the necessary dependencies by running the command 
+### Jupyter Notebook has also been installed in the virtual environment. Install the necessary dependencies by running the command
     pip install -r requirements.txt.
+### Run Jupyter Notebook using the following command to open notebook.ipynb
+    jupyter notebook
 ### Start the Flask server by running the command python app.py in the terminal.
     streamlit run app
 ### Open a web browser and navigate to http://localhost:8501 to access the home page of the application.
