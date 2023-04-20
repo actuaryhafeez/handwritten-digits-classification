@@ -20,7 +20,7 @@ The Digits Recognition App is a useful tool for anyone who needs to recognize ha
     pip install -r requirements.txt.
 ### Run Jupyter Notebook using the following command to open notebook.ipynb
     jupyter notebook
-### Start the Flask server by running the command python app.py in the terminal.
+### Start the Streamlit server by running the command python app.py in the terminal.
     streamlit run app
 ### Open a web browser and navigate to http://localhost:8501 to access the home page of the application.
 ### Upload digit image from data directory and click "Predict" to see the predicted species.
